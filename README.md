@@ -1,31 +1,19 @@
 # Awesome Machine Learning Python
 
-A curated list of awesome machine learning frameworks, libraries and software (by language). Inspired by `awesome-php`.
+A curated list of awesome Python machine learning frameworks, libraries and software (by language). Inspired by `awesome-php`.
 
-_If you want to contribute to this list (please do), send me a pull request or contact me [@josephmisiti](https://twitter.com/josephmisiti)._
+_If you want to contribute to this list (please do), send me a pull request or contact me [@josephmisiti](https://twitter.com/josephmisiti).
 Also, a listed repository should be deprecated if:
 
 * Orignally from [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning/) by [@josephmisiti](https://twitter.com/josephmisiti).
 * Not committed for a long time (2~3 years).
-
-Further resources:
-
-* For a list of free machine learning books available for download, go [here](books.md).
-
-* For a list of professional machine learning events, go [here](events.md).
-
-* For a list of (mostly) free machine learning courses available online, go [here](courses.md).
-
-* For a list of blogs and newsletters on data science and machine learning, go [here](blogs.md).
-
-* For a list of free-to-attend meetups and local events, go [here](meetups.md).
 
 ## Table of Contents
 
 ### Frameworks and Libraries
 <!-- MarkdownTOC depth=4 -->
 
-- [Awesome Machine Learning Python
+- [Awesome Machine Learning Python]
   - [Table of Contents](#table-of-contents)
     - [Frameworks and Libraries](#frameworks-and-libraries)
     - [Tools](#tools)
@@ -46,9 +34,8 @@ Further resources:
 	  - [Libraries](#libraries)
 	  - [Tools/Utilities](#tools-utils)
 
-### [Tools](#tools-1)
+### Tools
 
-- [Neural Networks](#tools-neural-networks)
 - [Misc](#tools-misc)
 
 
@@ -600,16 +587,9 @@ Further resources:
 <a name="tools"></a>
 ## Tools
 
-<a name="tools-neural-networks"></a>
-#### Neural Networks
-* [layer](https://github.com/cloudkj/layer) - Neural network inference from the command line
-
 <a name="tools-misc"></a>
 #### Misc
 
-* [Weaviate](https://www.semi.technology/developers/weaviate/current/) – Weaviate is an [open source](https://github.com/semi-technologies/weaviate) vector search engine and vector database. Weaviate uses machine learning to vectorize and store data, and to find answers to natural language queries. With Weaviate you can also bring your custom ML models to production scale.
-* [MLReef](https://about.mlreef.com/) - MLReef is an end-to-end development platform using the power of git to give structure and deep collaboration possibilities to the ML development process.
-* [Pinecone](https://www.pinecone.io/) - Vector database for applications that require real-time, scalable vector embedding and similarity search.
 * [CatalyzeX](https://chrome.google.com/webstore/detail/code-finder-for-research/aikkeehnlfpamidigaffhfmgbkdeheil) - Browser extension ([Chrome](https://chrome.google.com/webstore/detail/code-finder-for-research/aikkeehnlfpamidigaffhfmgbkdeheil) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/code-finder-catalyzex/)) that automatically finds and shows code implementations for machine learning papers anywhere: Google, Twitter, Arxiv, Scholar, etc.
 * [ML Workspace](https://github.com/ml-tooling/ml-workspace) - All-in-one web-based IDE for machine learning and data science. The workspace is deployed as a docker container and is preloaded with a variety of popular data science libraries (e.g., Tensorflow, PyTorch) and dev tools (e.g., Jupyter, VS Code).
 * [Notebooks](https://github.com/rlan/notebooks) - A starter kit for Jupyter notebooks and machine learning. Companion docker images consist of all combinations of python versions, machine learning frameworks (Keras, PyTorch and Tensorflow) and CPU/CUDA versions.
@@ -619,27 +599,12 @@ Further resources:
 * [guild.ai](https://guild.ai/) - Tool to log, analyze, compare and "optimize" experiments. It's cross-platform and framework independent, and provided integrated visualizers such as tensorboard.
 * [Sacred](https://github.com/IDSIA/sacred) - Python tool to help  you configure, organize, log and reproduce experiments. Like a notebook lab in the context of Chemistry/Biology. The community has built multiple add-ons leveraging the proposed standard.
 * [MLFlow](https://mlflow.org/) - platform to manage the ML lifecycle, including experimentation, reproducibility and deployment. Framework and language agnostic, take a look at all the built-in integrations.
-* [Weights & Biases](https://www.wandb.com/) - Machine learning experiment tracking, dataset versioning, hyperparameter search, visualization, and collaboration
-* More tools to improve the ML lifecycle: [Catalyst](https://github.com/catalyst-team/catalyst), [PachydermIO](https://www.pachyderm.io/). The following are Github-alike and targeting teams [Weights & Biases](https://www.wandb.com/), [Neptune.ai](https://neptune.ai/), [Comet.ml](https://www.comet.ml/), [Valohai.ai](https://valohai.com/), [DAGsHub](https://DAGsHub.com/).
-* [MachineLearningWithTensorFlow2ed](https://www.manning.com/books/machine-learning-with-tensorflow-second-edition) - a book on general purpose machine learning techniques regression, classification, unsupervised clustering, reinforcement learning, auto encoders, convolutional neural networks, RNNs, LSTMs, using TensorFlow 1.14.1.
+* More tools to improve the ML lifecycle: [Catalyst](https://github.com/catalyst-team/catalyst), [PachydermIO](https://github.com/pachyderm/pachyderm).
 * [m2cgen](https://github.com/BayesWitnesses/m2cgen) - A tool that allows the conversion of ML models into native code (Java, C, Python, Go, JavaScript, Visual Basic, C#, R, PowerShell, PHP, Dart) with zero dependencies.
 * [CML](https://github.com/iterative/cml) - A library for doing continuous integration with ML projects. Use GitHub Actions & GitLab CI to train and evaluate models in production like environments and automatically generate visual reports with metrics and graphs in pull/merge requests. Framework & language agnostic.
-* [Pythonizr](https://pythonizr.com) - An online tool to generate boilerplate machine learning code that uses scikit-learn.
-* [Flyte](https://flyte.org/) - Flyte makes it easy to create concurrent, scalable, and maintainable workflows for machine learning and data processing.
-
-<a name="books"></a>
-## Books
-
-* [Distributed Machine Learning Patterns](https://github.com/terrytangyuan/distributed-ml-patterns)  - This book teaches you how to take machine learning models from your personal laptop to large distributed clusters. You’ll explore key concepts and patterns behind successful distributed machine learning systems, and learn technologies like TensorFlow, Kubernetes, Kubeflow, and Argo Workflows directly from a key maintainer and contributor, with real-world scenarios and hands-on projects.
-* [Grokking Machine Learning](https://www.manning.com/books/grokking-machine-learning) - Grokking Machine Learning teaches you how to apply ML to your projects using only standard Python code and high school-level math.
-* [Machine Learning Bookcamp](https://www.manning.com/books/machine-learning-bookcamp) - Learn the essentials of machine learning by completing a carefully designed set of real-world projects.
-
-<a name="credits"></a>
-* [Netron](https://netron.app/) - An opensource viewer for neural network, deep learning and machine learning models
-* [Teachable Machine](https://teachablemachine.withgoogle.com/) - Train Machine Learning models on the fly to recognize your own images, sounds, & poses.
-* [Model Zoo](https://modelzoo.co/) - Discover open source deep learning code and pretrained models.
+* [Pythonizr](https://github.com/akashp1712/pythonizr) - An online tool to generate boilerplate machine learning code that uses scikit-learn.
+* [Flyte](https://github.com/flyteorg/flyte) - Flyte makes it easy to create concurrent, scalable, and maintainable workflows for machine learning and data processing.
 
 ## Credits
 
 * Some of the python libraries were cut-and-pasted from [vinta](https://github.com/vinta/awesome-python)
-* References for Go were mostly cut-and-pasted from [gopherdata](https://github.com/gopherdata/resources/tree/master/tooling)
