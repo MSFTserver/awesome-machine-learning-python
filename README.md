@@ -465,7 +465,7 @@ Further resources:
 
 <a name="github-tutorials" />
 
-## Tutorials
+#### Tutorials
 
 * [TensorFlow Tutorial 1](https://github.com/pkmital/tensorflow_tutorials) - From the basics to slightly more interesting applications of TensorFlow
 * [TensorFlow Tutorial 2](https://github.com/nlintz/TensorFlow-Tutorials) - Introduction to deep learning based on Google's TensorFlow framework. These tutorials are direct ports of Newmu's Theano
@@ -487,7 +487,7 @@ Further resources:
 
 <a name="github-projects" />
 
-## Models/Projects
+#### Models/Projects
 
 * [Tensorflow-Project-Template](https://github.com/Mrgemy95/Tensorflow-Project-Template) - A simple and well-designed template for your tensorflow project.
 * [Domain Transfer Network](https://github.com/yunjey/dtn-tensorflow) - Implementation of Unsupervised Cross-Domain Image Generation
@@ -554,7 +554,7 @@ Further resources:
 
 <a name="github-powered-by" />
 
-## Powered by TensorFlow
+#### Powered by TensorFlow
 
 * [YOLO TensorFlow](https://github.com/gliese581gg/YOLO_tensorflow) - Implementation of 'YOLO : Real-Time Object Detection'
 * [android-yolo](https://github.com/natanielruiz/android-yolo) - Real-time object detection on Android using the YOLO network, powered by TensorFlow.
@@ -563,7 +563,7 @@ Further resources:
 
 <a name="libraries" />
 
-## Libraries
+#### Libraries
 
 * [TensorFlow Estimators](https://www.tensorflow.org/guide/estimators) - high-level TensorFlow API that greatly simplifies machine learning programming (originally [tensorflow/skflow](https://github.com/tensorflow/skflow))
 * [R Interface to TensorFlow](https://tensorflow.rstudio.com/) - R interface to TensorFlow APIs, including Estimators, Keras, Datasets, etc.
@@ -591,7 +591,7 @@ Further resources:
 
 <a name="tools-utils" />
 
-## Tools/Utilities
+#### Tools/Utilities
 
 * [Guild AI](https://guild.ai) - Task runner and package manager for TensorFlow
 * [ML Workspace](https://github.com/ml-tooling/ml-workspace) - All-in-one web IDE for machine learning and data science. Combines Tensorflow, Jupyter, VS Code, Tensorboard, and many other tools/libraries into one Docker image.
